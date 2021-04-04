@@ -1,7 +1,6 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
 .home-header {
@@ -106,7 +105,8 @@
     height: 2.5em;
 }
 #submit-btn{
-    height: 2.5em;
+    height: 3em;
     color: #fff;
     background-color: #a9508b;
+    width: 6.25em;
 }
