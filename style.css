@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.home-header {
+    background-color: #35424a;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-around;
+    border-bottom: 0.25em solid #a9508b;
+    
+}
+
+.home-header div h1 {
+    color: #fff;
+    padding: 1.875rem;
+    font-size: 2em;
+    font-family: arial;
+
+}
+
+.home-header div h1 span {
+    color: #a9508b;
+}
+.home-navbar{
+    display: flex;  
+    
+}
+
+.home-navbar div a{
+    color: #fff;
+    text-decoration: none;
+    padding: 1.875em;
+    font-family: Arial;
+    font: size 1em;
+    
+}
+
+.home-navbar div a:hover{
+    color: #cccccc;
+    font-size: 18px;
+    
+}
+
+#my-home a{
+    color: #a9508b;
+}
+
+#my-home a:hover{
+    color: #cccccc;
+}
+
+.home-main-first-section{
+    display: flex;
+    background-image: url("Images/showcase.jpg");
+    min-height: 31.25em;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    
+    
+}
+
+.home-main-first-section h1{
+    font-size: 3.4375em;
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+    justify-content: center;
+}
+
+.home-main-first-section p{
+    font-size: 1.25em;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: 0 auto;
+    padding: 1.875em 5em;
+}
+
+.home-main-second-section {
+    background-color: #35424a;
+    width: 100%;
+    height: 6.25em;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.home-main-second-section h1{
+    font-size: 1.4375em;
+    font-family: Arial, Helvetica, sans-serif;   
+}
+#email{
+    width: 18.75em;
+    height: 2.5em;
+}
+#submit-btn{
+    height: 2.5em;
+    color: #fff;
+    background-color: #a9508b;
+}
