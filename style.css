@@ -110,3 +110,153 @@
     background-color: #a9508b;
     width: 6.25em;
 }
+
+.home-main-third-section{
+    width:100%;
+    height: 16.875em;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 0.1875em solid #a9508b;
+}
+.home-main-third-section img{
+    width: 6.25em;
+}
+.job-logos{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9375em;
+}
+.job-logos h2{
+    padding-bottom: 1.25em;
+    padding-top: 1.25em;
+}
+
+.general-footer{
+    text-align: center;
+    justify-content: center;
+    font-size: 0.9375em;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 2.5em;
+    padding-bottom: 2.5em;
+}
+.general-footer img{
+    width: 12.5em;
+    padding-top: 0.3125em;
+}
+
+.aboutservices-header{
+    background-color: #35424a;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-around;
+    border-bottom: 0.25em solid #a9508b;
+    
+}
+
+
+.aboutservices-header div h1 {
+    color: #fff;
+    padding: 1.875rem;
+    font-size: 2em;
+    font-family: arial;
+
+}
+
+.aboutservices-header div h1 span {
+    color: #a9508b;
+}
+.aboutservices-navbar{
+    display: flex;  
+    
+}
+
+.aboutservices-navbar div a{
+    color: #fff;
+    text-decoration: none;
+    padding: 1.875em;
+    font-family: Arial;
+    font: size 1em;
+    
+}
+
+.aboutservices-navbar div a:hover{
+    color: #cccccc;
+    font-size: 1.125em;
+    
+}
+
+#nav-about a{
+    color: #a9508b;
+}
+
+#nav-about a:hover{
+    color: #cccccc;
+}
+
+.about-header-second-section {
+    background-color: #35424a;
+    width: 100%;
+    height: 6.25em;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.about-header-second-section h1{
+    font-size: 1.4375em;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;   
+}
+#email{
+    width: 18.75em;
+    height: 2.5em;
+}
+#submit-btn{
+    height: 3em;
+    color: #fff;
+    background-color: #a9508b;
+    width: 6.25em;
+}
+
+.about-main{
+    padding-left: 6.25em;
+    padding-right: 6.25em;
+    padding-bottom: 18.75em;
+    border-bottom: 3px solid #a9508b;
+    background-color: #f4f4f4;
+}
+.about-main-first-section{
+    width: 50%;
+    margin-bottom: 1.875em;
+}
+
+.about-main h1{
+    font-size: 1.125em;
+    font-family:Arial, Helvetica, sans-serif;
+    padding: 1.25em;
+}
+
+.about-main p{
+    font-size: 0.9375em;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.about-main-second-section{
+    background-color: #35424a;
+    color: #fff;
+    padding: 1.25em;
+    width: 50%;
+    
+}
+
+.about-main-aside{
+    background-color: #35424a;
+    color: #fff;
+    position: absolute;
+    top: 15em;
+    bottom: 9.375em;
+    right: 11.875em;
+    width: 25%;
+    padding: 1.25em;
+}
